@@ -1,0 +1,645 @@
+2025-12-02 14:43:11,582 - INFO - Initializing speech translation pipeline...
+2025-12-02 14:49:13,929 - INFO - Initializing speech translation pipeline...
+2025-12-02 14:55:39,241 - INFO - Initializing speech translation pipeline...
+2025-12-02 14:58:10,521 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:00:31,902 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:00:35,386 - INFO - Pipeline initialized successfully
+2025-12-02 15:00:35,388 - INFO - Starting speech translation pipeline...
+2025-12-02 15:00:35,426 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:00:35,428 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:01:08,486 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:01:08,500 - INFO - Pipeline stopped
+2025-12-02 15:02:54,710 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:02:58,427 - INFO - Pipeline initialized successfully
+2025-12-02 15:02:58,428 - INFO - Starting speech translation pipeline...
+2025-12-02 15:02:58,485 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:02:58,485 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:04:06,934 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:04:06,948 - INFO - Pipeline stopped
+2025-12-02 15:07:10,217 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:07:13,584 - INFO - Pipeline initialized successfully
+2025-12-02 15:07:13,585 - INFO - Starting speech translation pipeline...
+2025-12-02 15:07:13,615 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:07:13,615 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:07:26,703 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:07:26,778 - INFO - Pipeline stopped
+2025-12-02 15:08:15,168 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:08:18,653 - INFO - Pipeline initialized successfully
+2025-12-02 15:08:18,654 - INFO - Starting speech translation pipeline...
+2025-12-02 15:08:18,683 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:08:18,683 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:08:21,972 - INFO - STT (req_1_1764668301972): Thank you.
+2025-12-02 15:08:23,623 - INFO - STT (req_2_1764668303623): Thank you.
+2025-12-02 15:08:25,658 - INFO - STT (req_3_1764668305658): Hello, Havario.
+2025-12-02 15:08:27,486 - INFO - STT (req_4_1764668307486): This is it.
+2025-12-02 15:08:29,824 - INFO - STT (req_5_1764668309824): I'll see you next time.
+2025-12-02 15:08:31,883 - INFO - STT (req_6_1764668311883): Thank you.
+2025-12-02 15:08:33,971 - INFO - STT (req_7_1764668313971): Thank you.
+2025-12-02 15:08:36,286 - INFO - STT (req_8_1764668316286): Thank you.
+2025-12-02 15:08:40,673 - INFO - STT (req_9_1764668320673): Thank you.
+2025-12-02 15:08:44,924 - INFO - STT (req_10_1764668324924): Thank you.
+2025-12-02 15:08:47,029 - INFO - STT (req_11_1764668327029): Thank you.
+2025-12-02 15:08:49,183 - INFO - STT (req_12_1764668329183): Thank you.
+2025-12-02 15:08:51,459 - INFO - STT (req_13_1764668331458): Thank you.
+2025-12-02 15:08:53,678 - INFO - STT (req_14_1764668333678): Thank you.
+2025-12-02 15:08:56,002 - INFO - STT (req_15_1764668336002): Thank you.
+2025-12-02 15:08:58,197 - INFO - STT (req_16_1764668338197): Thank you.
+2025-12-02 15:09:00,501 - INFO - STT (req_17_1764668340501): Thank you.
+2025-12-02 15:09:02,595 - INFO - STT (req_18_1764668342595): Thank you.
+2025-12-02 15:09:04,503 - INFO - STT (req_19_1764668344503): Thank you.
+2025-12-02 15:09:06,785 - INFO - STT (req_20_1764668346785): Thank you.
+2025-12-02 15:09:08,878 - INFO - STT (req_21_1764668348878): Thank you.
+2025-12-02 15:09:10,040 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:09:10,194 - INFO - Pipeline stopped
+2025-12-02 15:24:46,370 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:24:49,860 - INFO - Pipeline initialized successfully
+2025-12-02 15:24:49,861 - INFO - Starting speech translation pipeline...
+2025-12-02 15:24:49,891 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:24:49,891 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:24:53,634 - INFO - STT (req_1_1764669293634): Thank you.
+2025-12-02 15:24:55,360 - INFO - STT (req_2_1764669295360): Thank you.
+2025-12-02 15:24:57,326 - INFO - STT (req_3_1764669297326): Thank you.
+2025-12-02 15:24:59,572 - INFO - STT (req_4_1764669299572): Thank you.
+2025-12-02 15:25:01,793 - INFO - STT (req_5_1764669301793): Thank you.
+2025-12-02 15:25:03,999 - INFO - STT (req_6_1764669303999): Thank you for all your time.
+2025-12-02 15:25:05,922 - INFO - STT (req_7_1764669305922): Thank you.
+2025-12-02 15:25:06,361 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:25:06,841 - INFO - Pipeline stopped
+2025-12-02 15:29:24,138 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:29:27,586 - INFO - Pipeline initialized successfully
+2025-12-02 15:29:27,586 - INFO - Starting speech translation pipeline...
+2025-12-02 15:29:27,621 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:29:27,621 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:29:30,930 - INFO - STT (req_1_1764669570930): Thank you.
+2025-12-02 15:29:32,801 - INFO - STT (req_2_1764669572801): Thank you.
+2025-12-02 15:29:35,070 - INFO - STT (req_3_1764669575070): Thank you.
+2025-12-02 15:29:37,126 - INFO - STT (req_4_1764669577126): Thank you.
+2025-12-02 15:29:40,260 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:29:40,506 - INFO - Pipeline stopped
+2025-12-02 15:39:30,154 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:39:33,788 - INFO - Pipeline initialized successfully
+2025-12-02 15:39:33,788 - INFO - Starting speech translation pipeline...
+2025-12-02 15:39:33,821 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:39:33,821 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:39:37,046 - INFO - STT (req_1_1764670177046): Thank you.
+2025-12-02 15:39:40,803 - INFO - STT (req_2_1764670180803): Thank you.
+2025-12-02 15:39:42,189 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:39:42,337 - INFO - Pipeline stopped
+2025-12-02 15:39:42,773 - INFO - STT (req_3_1764670182773): Thank you.
+2025-12-02 15:44:20,859 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:44:24,320 - INFO - Pipeline initialized successfully
+2025-12-02 15:44:24,321 - INFO - Starting speech translation pipeline...
+2025-12-02 15:44:24,351 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:44:24,351 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:44:27,512 - INFO - STT (req_1_1764670467512): Thank you.
+2025-12-02 15:44:29,256 - INFO - STT (req_2_1764670469256): Thank you.
+2025-12-02 15:44:29,410 - INFO - TTS (req_1_1764670467512): Generated 25401 audio samples
+2025-12-02 15:44:30,648 - INFO - Audio played for req_1_1764670467512
+2025-12-02 15:44:31,185 - INFO - TTS (req_2_1764670469256): Generated 25401 audio samples
+2025-12-02 15:44:32,408 - INFO - Audio played for req_2_1764670469256
+2025-12-02 15:44:33,459 - INFO - STT (req_3_1764670473458): Hello.
+2025-12-02 15:44:34,162 - INFO - TTS (req_3_1764670473458): Generated 20639 audio samples
+2025-12-02 15:44:35,183 - INFO - Audio played for req_3_1764670473458
+2025-12-02 15:44:35,444 - INFO - STT (req_4_1764670475444): Hello.
+2025-12-02 15:44:36,077 - INFO - TTS (req_4_1764670475444): Generated 20639 audio samples
+2025-12-02 15:44:37,102 - INFO - Audio played for req_4_1764670475444
+2025-12-02 15:44:37,461 - INFO - STT (req_5_1764670477461): Thank you.
+2025-12-02 15:44:38,027 - INFO - TTS (req_5_1764670477461): Generated 25401 audio samples
+2025-12-02 15:44:39,249 - INFO - Audio played for req_5_1764670477461
+2025-12-02 15:44:39,423 - INFO - STT (req_6_1764670479423): Thank you.
+2025-12-02 15:44:39,979 - INFO - TTS (req_6_1764670479423): Generated 25401 audio samples
+2025-12-02 15:44:41,209 - INFO - Audio played for req_6_1764670479423
+2025-12-02 15:44:41,461 - INFO - STT (req_7_1764670481461): Okay, test case.
+2025-12-02 15:44:42,272 - INFO - TTS (req_7_1764670481461): Generated 35457 audio samples
+2025-12-02 15:44:43,396 - INFO - STT (req_8_1764670483396): Thank you.
+2025-12-02 15:44:43,998 - INFO - Audio played for req_7_1764670481461
+2025-12-02 15:44:44,450 - INFO - TTS (req_8_1764670483396): Generated 25401 audio samples
+2025-12-02 15:44:45,409 - INFO - STT (req_9_1764670485409): Thank you.
+2025-12-02 15:44:45,674 - INFO - Audio played for req_8_1764670483396
+2025-12-02 15:44:46,153 - INFO - TTS (req_9_1764670485409): Generated 25401 audio samples
+2025-12-02 15:44:47,378 - INFO - Audio played for req_9_1764670485409
+2025-12-02 15:44:47,397 - INFO - STT (req_10_1764670487397): Thank you.
+2025-12-02 15:44:48,002 - INFO - TTS (req_10_1764670487397): Generated 25401 audio samples
+2025-12-02 15:44:49,231 - INFO - Audio played for req_10_1764670487397
+2025-12-02 15:44:49,671 - INFO - STT (req_11_1764670489671): Thank you.
+2025-12-02 15:44:50,260 - INFO - TTS (req_11_1764670489671): Generated 25401 audio samples
+2025-12-02 15:44:51,486 - INFO - Audio played for req_11_1764670489671
+2025-12-02 15:44:52,434 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:44:52,567 - INFO - Pipeline stopped
+2025-12-02 15:44:52,588 - INFO - STT (req_12_1764670492588): Thank you.
+2025-12-02 15:44:53,451 - INFO - TTS (req_12_1764670492588): Generated 25401 audio samples
+2025-12-02 15:48:38,308 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:48:41,631 - INFO - Pipeline initialized successfully
+2025-12-02 15:48:41,632 - INFO - Starting speech translation pipeline...
+2025-12-02 15:48:41,662 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:48:41,662 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:48:44,811 - INFO - STT (req_1_1764670724811): Thank you.
+2025-12-02 15:48:45,748 - INFO - TTS (req_1_1764670724811): Generated 25401 audio samples
+2025-12-02 15:48:46,980 - INFO - Audio played for req_1_1764670724811
+2025-12-02 15:48:48,541 - INFO - STT (req_2_1764670728541): Thank you.
+2025-12-02 15:48:49,159 - INFO - TTS (req_2_1764670728541): Generated 25401 audio samples
+2025-12-02 15:48:50,380 - INFO - Audio played for req_2_1764670728541
+2025-12-02 15:48:50,529 - INFO - STT (req_3_1764670730529): Thank you.
+2025-12-02 15:48:51,118 - INFO - TTS (req_3_1764670730529): Generated 25401 audio samples
+2025-12-02 15:48:52,347 - INFO - Audio played for req_3_1764670730529
+2025-12-02 15:48:52,595 - INFO - STT (req_4_1764670732595): This is your turn.
+2025-12-02 15:48:53,293 - INFO - TTS (req_4_1764670732595): Generated 33339 audio samples
+2025-12-02 15:48:54,825 - INFO - STT (req_5_1764670734825): I'm doing.
+2025-12-02 15:48:54,920 - INFO - Audio played for req_4_1764670732595
+2025-12-02 15:48:55,537 - INFO - TTS (req_5_1764670734825): Generated 26460 audio samples
+2025-12-02 15:48:56,757 - INFO - Audio played for req_5_1764670734825
+2025-12-02 15:48:56,815 - INFO - STT (req_6_1764670736815): Thank you.
+2025-12-02 15:48:57,398 - INFO - TTS (req_6_1764670736815): Generated 25401 audio samples
+2025-12-02 15:48:58,624 - INFO - Audio played for req_6_1764670736815
+2025-12-02 15:48:58,739 - INFO - STT (req_7_1764670738739): Thank you.
+2025-12-02 15:48:59,349 - INFO - TTS (req_7_1764670738739): Generated 25401 audio samples
+2025-12-02 15:49:00,574 - INFO - Audio played for req_7_1764670738739
+2025-12-02 15:49:00,823 - INFO - STT (req_8_1764670740823): Thank you.
+2025-12-02 15:49:01,414 - INFO - TTS (req_8_1764670740823): Generated 25401 audio samples
+2025-12-02 15:49:02,638 - INFO - Audio played for req_8_1764670740823
+2025-12-02 15:49:03,006 - INFO - STT (req_9_1764670743006): Thank you.
+2025-12-02 15:49:03,588 - INFO - TTS (req_9_1764670743006): Generated 25401 audio samples
+2025-12-02 15:49:04,812 - INFO - Audio played for req_9_1764670743006
+2025-12-02 15:49:09,955 - INFO - STT (req_10_1764670749955): around early test days.
+2025-12-02 15:49:10,893 - INFO - TTS (req_10_1764670749955): Generated 52920 audio samples
+2025-12-02 15:49:11,289 - INFO - STT (req_11_1764670751289): Thank you.
+2025-12-02 15:49:13,270 - INFO - STT (req_12_1764670753270): This is your sample test case.
+2025-12-02 15:49:13,333 - INFO - Audio played for req_10_1764670749955
+2025-12-02 15:49:14,060 - INFO - TTS (req_11_1764670751289): Generated 25401 audio samples
+2025-12-02 15:49:15,287 - INFO - Audio played for req_11_1764670751289
+2025-12-02 15:49:15,888 - INFO - TTS (req_12_1764670753270): Generated 47628 audio samples
+2025-12-02 15:49:16,049 - INFO - STT (req_13_1764670756049): Thank you.
+2025-12-02 15:49:17,742 - INFO - STT (req_14_1764670757742): Thank you.
+2025-12-02 15:49:18,127 - INFO - Audio played for req_12_1764670753270
+2025-12-02 15:49:18,589 - INFO - TTS (req_13_1764670756049): Generated 25401 audio samples
+2025-12-02 15:49:19,812 - INFO - Audio played for req_13_1764670756049
+2025-12-02 15:49:20,167 - INFO - STT (req_15_1764670760167): Thank you.
+2025-12-02 15:49:20,343 - INFO - TTS (req_14_1764670757742): Generated 25401 audio samples
+2025-12-02 15:49:21,564 - INFO - Audio played for req_14_1764670757742
+2025-12-02 15:49:22,004 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:49:22,103 - INFO - TTS (req_15_1764670760167): Generated 25401 audio samples
+2025-12-02 15:49:22,227 - INFO - STT (req_16_1764670762227): Thank you.
+2025-12-02 15:49:22,807 - INFO - TTS (req_16_1764670762227): Generated 25401 audio samples
+2025-12-02 15:49:23,070 - INFO - Pipeline stopped
+2025-12-02 15:49:23,078 - INFO - Audio played for req_15_1764670760167
+2025-12-02 15:49:23,127 - INFO - Audio played for req_16_1764670762227
+2025-12-02 15:56:36,100 - INFO - Initializing speech translation pipeline...
+2025-12-02 15:56:39,517 - INFO - Pipeline initialized successfully
+2025-12-02 15:56:39,519 - INFO - Starting speech translation pipeline...
+2025-12-02 15:56:39,549 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 15:56:39,549 - INFO - Press Ctrl+C to stop.
+2025-12-02 15:56:46,474 - INFO - STT (req_1_1764671206474): This is my first sample.
+2025-12-02 15:56:47,725 - INFO - TTS (req_1_1764671206474): Generated 46569 audio samples
+2025-12-02 15:56:49,957 - INFO - Audio played for req_1_1764671206474
+2025-12-02 15:56:53,288 - INFO - STT (req_2_1764671213288): that it Aladdin-Dance.
+2025-12-02 15:56:54,362 - INFO - TTS (req_2_1764671213288): Generated 43923 audio samples
+2025-12-02 15:56:55,543 - INFO - STT (req_3_1764671215543): This is my first samples.
+2025-12-02 15:56:56,407 - INFO - Audio played for req_2_1764671213288
+2025-12-02 15:56:57,051 - INFO - TTS (req_3_1764671215543): Generated 48158 audio samples
+2025-12-02 15:56:59,284 - INFO - Audio played for req_3_1764671215543
+2025-12-02 15:57:04,986 - INFO - STT (req_4_1764671224986): This is my first.
+2025-12-02 15:57:05,980 - INFO - TTS (req_4_1764671224986): Generated 32811 audio samples
+2025-12-02 15:57:07,509 - INFO - Audio played for req_4_1764671224986
+2025-12-02 15:57:14,292 - INFO - Stopping speech translation pipeline...
+2025-12-02 15:57:14,413 - INFO - Pipeline stopped
+2025-12-02 16:05:50,478 - INFO - Initializing speech translation pipeline...
+2025-12-02 16:05:54,125 - INFO - Pipeline initialized successfully
+2025-12-02 16:05:54,125 - INFO - Starting speech translation pipeline...
+2025-12-02 16:05:54,179 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 16:05:54,179 - INFO - Press Ctrl+C to stop.
+2025-12-02 16:06:12,054 - INFO - STT (req_1_1764671772054): Can you hear it?
+2025-12-02 16:06:13,432 - INFO - TTS (req_1_1764671772054): Generated 26460 audio samples
+2025-12-02 16:06:13,472 - INFO - STT (req_2_1764671773472): I can't even...
+2025-12-02 16:06:14,659 - INFO - Audio played for req_1_1764671772054
+2025-12-02 16:06:15,178 - INFO - TTS (req_2_1764671773472): Generated 33869 audio samples
+2025-12-02 16:06:16,805 - INFO - Audio played for req_2_1764671773472
+2025-12-02 16:06:19,268 - INFO - STT (req_3_1764671779268): Game of the
+2025-12-02 16:06:20,095 - INFO - TTS (req_3_1764671779268): Generated 17993 audio samples
+2025-12-02 16:06:21,017 - INFO - Audio played for req_3_1764671779268
+2025-12-02 16:06:26,880 - INFO - STT (req_4_1764671786880): right? Are you sad?
+2025-12-02 16:06:27,847 - INFO - TTS (req_4_1764671786880): Generated 28577 audio samples
+2025-12-02 16:06:29,177 - INFO - Audio played for req_4_1764671786880
+2025-12-02 16:06:33,377 - INFO - STT (req_5_1764671793377): I'll have no Sash.
+2025-12-02 16:06:34,425 - INFO - TTS (req_5_1764671793377): Generated 51861 audio samples
+2025-12-02 16:06:36,855 - INFO - Audio played for req_5_1764671793377
+2025-12-02 16:06:37,809 - INFO - STT (req_6_1764671797809): Thank you. Thank you.
+2025-12-02 16:06:38,596 - INFO - TTS (req_6_1764671797809): Generated 25401 audio samples
+2025-12-02 16:06:39,820 - INFO - Audio played for req_6_1764671797809
+2025-12-02 16:06:43,705 - INFO - Stopping speech translation pipeline...
+2025-12-02 16:06:43,867 - INFO - Pipeline stopped
+2025-12-02 16:07:09,559 - INFO - Initializing speech translation pipeline...
+2025-12-02 16:07:13,260 - INFO - Pipeline initialized successfully
+2025-12-02 16:07:13,261 - INFO - Starting speech translation pipeline...
+2025-12-02 16:07:13,290 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 16:07:13,291 - INFO - Press Ctrl+C to stop.
+2025-12-02 16:07:38,208 - INFO - STT (req_1_1764671858208): This is my first test.
+2025-12-02 16:07:39,264 - INFO - TTS (req_1_1764671858208): Generated 41277 audio samples
+2025-12-02 16:07:41,193 - INFO - Audio played for req_1_1764671858208
+2025-12-02 16:07:46,191 - INFO - STT (req_2_1764671866191): This is my first time.
+2025-12-02 16:07:46,974 - INFO - TTS (req_2_1764671866191): Generated 38631 audio samples
+2025-12-02 16:07:48,798 - INFO - Audio played for req_2_1764671866191
+2025-12-02 16:07:54,259 - INFO - STT (req_3_1764671874259): This is my first it.
+2025-12-02 16:07:54,984 - INFO - TTS (req_3_1764671874259): Generated 35457 audio samples
+2025-12-02 16:07:56,707 - INFO - Audio played for req_3_1764671874259
+2025-12-02 16:08:02,271 - INFO - STT (req_4_1764671882271): Hello, what are you doing?
+2025-12-02 16:08:03,294 - INFO - TTS (req_4_1764671882271): Generated 53450 audio samples
+2025-12-02 16:08:05,827 - INFO - Audio played for req_4_1764671882271
+2025-12-02 16:08:08,214 - INFO - STT (req_5_1764671888214): Okay, what is it?
+2025-12-02 16:08:09,114 - INFO - TTS (req_5_1764671888214): Generated 38631 audio samples
+2025-12-02 16:08:10,943 - INFO - Audio played for req_5_1764671888214
+2025-12-02 16:08:15,163 - INFO - STT (req_6_1764671895163): Yuificant I Rück
+2025-12-02 16:08:16,351 - INFO - TTS (req_6_1764671895163): Generated 36515 audio samples
+2025-12-02 16:08:18,086 - INFO - Audio played for req_6_1764671895163
+2025-12-02 16:08:22,983 - INFO - STT (req_7_1764671902983): Thanks for your being.
+2025-12-02 16:08:24,212 - INFO - TTS (req_7_1764671902983): Generated 46569 audio samples
+2025-12-02 16:08:26,351 - INFO - Audio played for req_7_1764671902983
+2025-12-02 16:08:33,124 - INFO - STT (req_8_1764671913124): I can speak English no matter how dirty.
+2025-12-02 16:08:34,850 - INFO - TTS (req_8_1764671913124): Generated 132300 audio samples
+2025-12-02 16:08:38,790 - INFO - STT (req_9_1764671918790): What is your name?
+2025-12-02 16:08:40,915 - INFO - Audio played for req_8_1764671913124
+2025-12-02 16:08:41,573 - INFO - TTS (req_9_1764671918790): Generated 34928 audio samples
+2025-12-02 16:08:43,209 - INFO - Audio played for req_9_1764671918790
+2025-12-02 16:08:45,778 - INFO - STT (req_10_1764671925778): This is my first
+2025-12-02 16:08:46,606 - INFO - TTS (req_10_1764671925778): Generated 34398 audio samples
+2025-12-02 16:08:47,950 - INFO - STT (req_11_1764671927950): I said, this is it.
+2025-12-02 16:08:48,236 - INFO - Audio played for req_10_1764671925778
+2025-12-02 16:08:48,808 - INFO - TTS (req_11_1764671927950): Generated 48687 audio samples
+2025-12-02 16:08:51,139 - INFO - Audio played for req_11_1764671927950
+2025-12-02 16:09:10,138 - INFO - STT (req_12_1764671950138): What is this?
+2025-12-02 16:09:10,821 - INFO - TTS (req_12_1764671950138): Generated 24344 audio samples
+2025-12-02 16:09:12,046 - INFO - Audio played for req_12_1764671950138
+2025-12-02 16:09:14,430 - INFO - Stopping speech translation pipeline...
+2025-12-02 16:09:14,664 - INFO - Pipeline stopped
+2025-12-02 16:14:15,467 - INFO - Initializing speech translation pipeline...
+2025-12-02 16:14:18,794 - INFO - Pipeline initialized successfully
+2025-12-02 16:14:18,795 - INFO - Starting speech translation pipeline...
+2025-12-02 16:14:18,825 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 16:14:18,825 - INFO - Press Ctrl+C to stop.
+2025-12-02 16:14:39,792 - INFO - STT (req_1_1764672279792): Can I speak? God.
+2025-12-02 16:14:40,855 - INFO - TTS (req_1_1764672279792): Generated 35985 audio samples
+2025-12-02 16:14:42,574 - INFO - Audio played for req_1_1764672279792
+2025-12-02 16:14:49,005 - INFO - STT (req_2_1764672289005): The moment I speak
+2025-12-02 16:14:49,897 - INFO - TTS (req_2_1764672289005): Generated 37574 audio samples
+2025-12-02 16:14:50,266 - INFO - STT (req_3_1764672290266): This is my first sentence.
+2025-12-02 16:14:51,631 - INFO - Audio played for req_2_1764672289005
+2025-12-02 16:14:52,278 - INFO - TTS (req_3_1764672290266): Generated 56625 audio samples
+2025-12-02 16:14:54,903 - INFO - Audio played for req_3_1764672290266
+2025-12-02 16:15:00,113 - INFO - STT (req_4_1764672300113): This is my first touch to send in.
+2025-12-02 16:15:00,979 - INFO - TTS (req_4_1764672300113): Generated 60329 audio samples
+2025-12-02 16:15:03,837 - INFO - Audio played for req_4_1764672300113
+2025-12-02 16:15:05,068 - INFO - STT (req_5_1764672305068): Thanks.
+2025-12-02 16:15:05,660 - INFO - TTS (req_5_1764672305068): Generated 25401 audio samples
+2025-12-02 16:15:06,889 - INFO - Audio played for req_5_1764672305068
+2025-12-02 16:15:10,150 - INFO - STT (req_6_1764672310150): This is my first dish tonight.
+2025-12-02 16:15:11,000 - INFO - TTS (req_6_1764672310150): Generated 62975 audio samples
+2025-12-02 16:15:13,925 - INFO - Audio played for req_6_1764672310150
+2025-12-02 16:15:19,237 - INFO - STT (req_7_1764672319237): dance.
+2025-12-02 16:15:20,033 - INFO - TTS (req_7_1764672319237): Generated 22227 audio samples
+2025-12-02 16:15:20,468 - INFO - STT (req_8_1764672320468): Hello, how are you?
+2025-12-02 16:15:21,164 - INFO - Audio played for req_7_1764672319237
+2025-12-02 16:15:21,696 - INFO - TTS (req_8_1764672320468): Generated 39690 audio samples
+2025-12-02 16:15:23,524 - INFO - Audio played for req_8_1764672320468
+2025-12-02 16:15:26,779 - INFO - Stopping speech translation pipeline...
+2025-12-02 16:15:26,912 - INFO - Pipeline stopped
+2025-12-02 16:49:39,611 - INFO - Initializing speech translation pipeline...
+2025-12-02 16:49:43,306 - INFO - Pipeline initialized successfully
+2025-12-02 16:49:43,308 - INFO - Starting speech translation pipeline...
+2025-12-02 16:49:43,341 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 16:49:43,341 - INFO - Press Ctrl+C to stop.
+2025-12-02 16:49:54,275 - INFO - STT (req_1_1764674394275): Thank you.
+2025-12-02 16:49:55,464 - INFO - TTS (req_1_1764674394275): Generated 25401 audio samples
+2025-12-02 16:49:56,692 - INFO - Audio played for req_1_1764674394275
+2025-12-02 16:49:59,594 - INFO - STT (req_2_1764674399594): Hello, how are you doing?
+2025-12-02 16:50:00,446 - INFO - TTS (req_2_1764674399594): Generated 39690 audio samples
+2025-12-02 16:50:02,268 - INFO - Audio played for req_2_1764674399594
+2025-12-02 16:50:09,179 - INFO - STT (req_3_1764674409179): It's a let's. our
+2025-12-02 16:50:10,033 - INFO - TTS (req_3_1764674409179): Generated 25401 audio samples
+2025-12-02 16:50:10,745 - INFO - STT (req_4_1764674410745): What is your age? Where are you going? It's school you have studied.
+2025-12-02 16:50:11,256 - INFO - Audio played for req_3_1764674409179
+2025-12-02 16:50:11,841 - INFO - TTS (req_4_1764674410745): Generated 68267 audio samples
+2025-12-02 16:50:14,979 - INFO - Audio played for req_4_1764674410745
+2025-12-02 16:50:15,075 - INFO - STT (req_5_1764674415075): What is your Instagram? What is your Instagram?
+2025-12-02 16:50:16,023 - INFO - TTS (req_5_1764674415075): Generated 46041 audio samples
+2025-12-02 16:50:18,153 - INFO - Audio played for req_5_1764674415075
+2025-12-02 16:50:18,981 - INFO - Stopping speech translation pipeline...
+2025-12-02 16:50:19,134 - INFO - Pipeline stopped
+2025-12-02 17:35:18,111 - INFO - Initializing speech translation pipeline...
+2025-12-02 17:35:34,989 - INFO - Pipeline initialized successfully
+2025-12-02 17:35:34,989 - INFO - Starting speech translation pipeline...
+2025-12-02 17:35:35,027 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 17:35:35,027 - INFO - Press Ctrl+C to stop.
+2025-12-02 17:35:38,390 - INFO - STT (req_1_1764677138389): Thank you.
+2025-12-02 17:35:43,882 - INFO - STT (req_2_1764677143882): Okay.
+2025-12-02 17:35:45,980 - INFO - STT (req_3_1764677145980): Thank you.
+2025-12-02 17:35:50,656 - INFO - TTS (req_1_1764677138389): Generated 25401 audio samples
+2025-12-02 17:35:51,881 - INFO - Audio played for req_1_1764677138389
+2025-12-02 17:35:52,581 - INFO - TTS (req_2_1764677143882): Generated 21698 audio samples
+2025-12-02 17:35:53,701 - INFO - Audio played for req_2_1764677143882
+2025-12-02 17:35:54,320 - INFO - TTS (req_3_1764677145980): Generated 25401 audio samples
+2025-12-02 17:35:55,544 - INFO - Audio played for req_3_1764677145980
+2025-12-02 17:35:58,148 - INFO - STT (req_4_1764677158148): Switch it to your little friends and each other.
+2025-12-02 17:35:59,472 - INFO - TTS (req_4_1764677158148): Generated 88905 audio samples
+2025-12-02 17:35:59,600 - INFO - STT (req_5_1764677159600): Thank you.
+2025-12-02 17:36:02,597 - INFO - STT (req_6_1764677162597): I'll see you later.
+2025-12-02 17:36:03,523 - INFO - Audio played for req_4_1764677158148
+2025-12-02 17:36:03,878 - INFO - STT (req_7_1764677163878): Thank you.
+2025-12-02 17:36:04,068 - INFO - TTS (req_5_1764677159600): Generated 25401 audio samples
+2025-12-02 17:36:05,292 - INFO - Audio played for req_5_1764677159600
+2025-12-02 17:36:06,010 - INFO - TTS (req_6_1764677162597): Generated 35457 audio samples
+2025-12-02 17:36:06,750 - INFO - STT (req_8_1764677166750): I love it.
+2025-12-02 17:36:07,739 - INFO - Audio played for req_6_1764677162597
+2025-12-02 17:36:08,351 - INFO - TTS (req_7_1764677163878): Generated 25401 audio samples
+2025-12-02 17:36:09,579 - INFO - Audio played for req_7_1764677163878
+2025-12-02 17:36:10,167 - INFO - TTS (req_8_1764677166750): Generated 30693 audio samples
+2025-12-02 17:36:11,157 - INFO - STT (req_9_1764677171157): Thank you.
+2025-12-02 17:36:11,592 - INFO - Audio played for req_8_1764677166750
+2025-12-02 17:36:12,114 - INFO - TTS (req_9_1764677171157): Generated 25401 audio samples
+2025-12-02 17:36:13,339 - INFO - Audio played for req_9_1764677171157
+2025-12-02 17:36:21,384 - INFO - STT (req_10_1764677181384): agent
+2025-12-02 17:36:22,156 - INFO - TTS (req_10_1764677181384): Generated 22755 audio samples
+2025-12-02 17:36:23,283 - INFO - Audio played for req_10_1764677181384
+2025-12-02 17:36:27,462 - INFO - STT (req_11_1764677187462): developed I picked
+2025-12-02 17:36:28,443 - INFO - TTS (req_11_1764677187462): Generated 40220 audio samples
+2025-12-02 17:36:28,722 - INFO - STT (req_12_1764677188722): a new toolkit from
+2025-12-02 17:36:30,295 - INFO - Audio played for req_11_1764677187462
+2025-12-02 17:36:30,973 - INFO - STT (req_13_1764677190973): Thank you.
+2025-12-02 17:36:31,049 - INFO - TTS (req_12_1764677188722): Generated 67209 audio samples
+2025-12-02 17:36:31,957 - INFO - STT (req_14_1764677191957): It's
+2025-12-02 17:36:34,199 - INFO - Audio played for req_12_1764677188722
+2025-12-02 17:36:34,867 - INFO - TTS (req_13_1764677190973): Generated 25401 audio samples
+2025-12-02 17:36:36,096 - INFO - Audio played for req_13_1764677190973
+2025-12-02 17:36:36,698 - INFO - TTS (req_14_1764677191957): Generated 17993 audio samples
+2025-12-02 17:36:37,619 - INFO - Audio played for req_14_1764677191957
+2025-12-02 17:36:38,656 - INFO - STT (req_15_1764677198656): more than uns Get
+2025-12-02 17:36:39,604 - INFO - TTS (req_15_1764677198656): Generated 43923 audio samples
+2025-12-02 17:36:39,948 - INFO - STT (req_16_1764677199948): Thank you.
+2025-12-02 17:36:41,632 - INFO - Audio played for req_15_1764677198656
+2025-12-02 17:36:42,342 - INFO - TTS (req_16_1764677199948): Generated 25401 audio samples
+2025-12-02 17:36:43,566 - INFO - Audio played for req_16_1764677199948
+2025-12-02 17:36:49,491 - INFO - STT (req_17_1764677209491): Friends busy naughtyZA MOMO
+2025-12-02 17:36:51,090 - INFO - TTS (req_17_1764677209491): Generated 78851 audio samples
+2025-12-02 17:36:54,735 - INFO - Audio played for req_17_1764677209491
+2025-12-02 17:37:01,450 - INFO - STT (req_19_1764677221450): Do you want these dogs?
+2025-12-02 17:37:01,566 - INFO - TTS (req_18_1764677217198): Generated 322283 audio samples
+2025-12-02 17:37:02,543 - INFO - STT (req_20_1764677222543): to agent directly.
+2025-12-02 17:37:03,611 - INFO - STT (req_21_1764677223611): without writing any.
+2025-12-02 17:37:04,616 - INFO - STT (req_22_1764677224616): extra code.
+2025-12-02 17:37:07,455 - INFO - STT (req_23_1764677227455): Thank you.
+2025-12-02 17:37:16,292 - INFO - Audio played for req_18_1764677217198
+2025-12-02 17:37:16,980 - INFO - TTS (req_19_1764677221450): Generated 47628 audio samples
+2025-12-02 17:37:19,211 - INFO - Audio played for req_19_1764677221450
+2025-12-02 17:37:19,830 - INFO - TTS (req_20_1764677222543): Generated 32282 audio samples
+2025-12-02 17:37:21,357 - INFO - Audio played for req_20_1764677222543
+2025-12-02 17:37:21,967 - INFO - TTS (req_21_1764677223611): Generated 43923 audio samples
+2025-12-02 17:37:24,001 - INFO - Audio played for req_21_1764677223611
+2025-12-02 17:37:24,528 - INFO - TTS (req_22_1764677224616): Generated 38631 audio samples
+2025-12-02 17:37:26,359 - INFO - Audio played for req_22_1764677224616
+2025-12-02 17:37:26,835 - INFO - TTS (req_23_1764677227455): Generated 25401 audio samples
+2025-12-02 17:37:27,593 - INFO - STT (req_24_1764677247593): Bye.
+2025-12-02 17:37:28,067 - INFO - Audio played for req_23_1764677227455
+2025-12-02 17:37:28,551 - INFO - TTS (req_24_1764677247593): Generated 18522 audio samples
+2025-12-02 17:37:29,475 - INFO - Audio played for req_24_1764677247593
+2025-12-02 17:37:31,493 - INFO - STT (req_25_1764677251493): We can easily integrate.
+2025-12-02 17:37:32,307 - INFO - TTS (req_25_1764677251493): Generated 55566 audio samples
+2025-12-02 17:37:33,589 - INFO - STT (req_26_1764677253589): our agents.
+2025-12-02 17:37:34,943 - INFO - Audio played for req_25_1764677251493
+2025-12-02 17:37:35,580 - INFO - TTS (req_26_1764677253589): Generated 32282 audio samples
+2025-12-02 17:37:37,105 - INFO - Audio played for req_26_1764677253589
+2025-12-02 17:37:37,509 - INFO - STT (req_27_1764677257509): with doors
+2025-12-02 17:37:38,568 - INFO - TTS (req_27_1764677257509): Generated 25931 audio samples
+2025-12-02 17:37:38,787 - INFO - STT (req_28_1764677258787): or can easily integrate it.
+2025-12-02 17:37:39,791 - INFO - Audio played for req_27_1764677257509
+2025-12-02 17:37:40,309 - INFO - STT (req_29_1764677260308): Have a nice day!
+2025-12-02 17:37:40,418 - INFO - TTS (req_28_1764677258787): Generated 51333 audio samples
+2025-12-02 17:37:42,046 - INFO - STT (req_30_1764677262046): Thank you.
+2025-12-02 17:37:42,847 - INFO - Audio played for req_28_1764677258787
+2025-12-02 17:37:43,467 - INFO - TTS (req_29_1764677260308): Generated 31223 audio samples
+2025-12-02 17:37:44,052 - INFO - STT (req_31_1764677264052): each agent contains.
+2025-12-02 17:37:44,992 - INFO - Audio played for req_29_1764677260308
+2025-12-02 17:37:45,672 - INFO - TTS (req_30_1764677262046): Generated 25401 audio samples
+2025-12-02 17:37:46,169 - INFO - STT (req_32_1764677266169): same same separate model.
+2025-12-02 17:37:46,897 - INFO - Audio played for req_30_1764677262046
+2025-12-02 17:37:47,400 - INFO - TTS (req_31_1764677264052): Generated 44982 audio samples
+2025-12-02 17:37:48,032 - INFO - STT (req_33_1764677268032): Thanks for watching.
+2025-12-02 17:37:49,535 - INFO - Audio played for req_31_1764677264052
+2025-12-02 17:37:50,230 - INFO - STT (req_34_1764677270230): name out
+2025-12-02 17:37:50,265 - INFO - TTS (req_32_1764677266169): Generated 40749 audio samples
+2025-12-02 17:37:52,040 - INFO - STT (req_35_1764677272040): but those we
+2025-12-02 17:37:52,196 - INFO - Audio played for req_32_1764677266169
+2025-12-02 17:37:52,810 - INFO - TTS (req_33_1764677268032): Generated 48687 audio samples
+2025-12-02 17:37:54,321 - INFO - STT (req_36_1764677274321): have to be clearly.
+2025-12-02 17:37:55,039 - INFO - Audio played for req_33_1764677268032
+2025-12-02 17:37:55,512 - INFO - TTS (req_34_1764677270230): Generated 19052 audio samples
+2025-12-02 17:37:56,434 - INFO - Audio played for req_34_1764677270230
+2025-12-02 17:37:57,094 - INFO - TTS (req_35_1764677272040): Generated 41807 audio samples
+2025-12-02 17:37:59,027 - INFO - Audio played for req_35_1764677272040
+2025-12-02 17:37:59,874 - INFO - TTS (req_36_1764677274321): Generated 35985 audio samples
+2025-12-02 17:38:01,603 - INFO - Audio played for req_36_1764677274321
+2025-12-02 17:38:03,208 - INFO - STT (req_37_1764677283208): Glad.
+2025-12-02 17:38:04,063 - INFO - TTS (req_37_1764677283208): Generated 33869 audio samples
+2025-12-02 17:38:04,498 - INFO - STT (req_38_1764677284498): Thank you.
+2025-12-02 17:38:05,700 - INFO - Audio played for req_37_1764677283208
+2025-12-02 17:38:06,278 - INFO - TTS (req_38_1764677284498): Generated 25401 audio samples
+2025-12-02 17:38:07,508 - INFO - Audio played for req_38_1764677284498
+2025-12-02 17:38:14,782 - INFO - STT (req_39_1764677294782): each agent contains.
+2025-12-02 17:38:15,550 - INFO - TTS (req_39_1764677294782): Generated 44982 audio samples
+2025-12-02 17:38:16,771 - INFO - STT (req_40_1764677296771): to separate model instructions.
+2025-12-02 17:38:17,678 - INFO - Audio played for req_39_1764677294782
+2025-12-02 17:38:18,325 - INFO - TTS (req_40_1764677296771): Generated 60329 audio samples
+2025-12-02 17:38:18,817 - INFO - STT (req_41_1764677298817): name, output.
+2025-12-02 17:38:20,684 - INFO - STT (req_42_1764677300684): tools.
+2025-12-02 17:38:21,159 - INFO - Audio played for req_40_1764677296771
+2025-12-02 17:38:21,779 - INFO - TTS (req_41_1764677298817): Generated 34928 audio samples
+2025-12-02 17:38:22,768 - INFO - STT (req_43_1764677302768): We have to define.
+2025-12-02 17:38:23,408 - INFO - Audio played for req_41_1764677298817
+2025-12-02 17:38:23,915 - INFO - TTS (req_42_1764677300684): Generated 28577 audio samples
+2025-12-02 17:38:24,817 - INFO - STT (req_44_1764677304817): Clear line inside the agent.
+2025-12-02 17:38:25,245 - INFO - Audio played for req_42_1764677300684
+2025-12-02 17:38:25,978 - INFO - TTS (req_43_1764677302768): Generated 41277 audio samples
+2025-12-02 17:38:26,758 - INFO - STT (req_45_1764677306758): Thank you.
+2025-12-02 17:38:27,905 - INFO - Audio played for req_43_1764677302768
+2025-12-02 17:38:28,543 - INFO - TTS (req_44_1764677304817): Generated 56625 audio samples
+2025-12-02 17:38:31,181 - INFO - Audio played for req_44_1764677304817
+2025-12-02 17:38:31,799 - INFO - TTS (req_45_1764677306758): Generated 25401 audio samples
+2025-12-02 17:38:32,103 - INFO - Stopping speech translation pipeline...
+2025-12-02 17:38:32,223 - INFO - Audio played for req_45_1764677306758
+2025-12-02 17:38:32,225 - INFO - Pipeline stopped
+2025-12-02 17:53:40,903 - INFO - Initializing speech translation pipeline...
+2025-12-02 17:53:44,644 - INFO - Pipeline initialized successfully
+2025-12-02 17:53:44,645 - INFO - Starting speech translation pipeline...
+2025-12-02 17:53:44,676 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 17:53:44,676 - INFO - Press Ctrl+C to stop.
+2025-12-02 17:54:13,461 - INFO - STT (req_1_1764678253461): my audible
+2025-12-02 17:54:14,613 - INFO - TTS (req_1_1764678253461): Generated 28047 audio samples
+2025-12-02 17:54:15,934 - INFO - Audio played for req_1_1764678253461
+2025-12-02 17:54:18,748 - INFO - STT (req_2_1764678258748): Hello. What is your name?
+2025-12-02 17:54:19,730 - INFO - TTS (req_2_1764678258748): Generated 54507 audio samples
+2025-12-02 17:54:22,256 - INFO - Audio played for req_2_1764678258748
+2025-12-02 17:54:26,471 - INFO - STT (req_3_1764678266471): your name.
+2025-12-02 17:54:27,196 - INFO - TTS (req_3_1764678266471): Generated 27519 audio samples
+2025-12-02 17:54:28,519 - INFO - Audio played for req_3_1764678266471
+2025-12-02 17:54:34,562 - INFO - STT (req_4_1764678274562): Thanks for joining.
+2025-12-02 17:54:35,404 - INFO - TTS (req_4_1764678274562): Generated 59799 audio samples
+2025-12-02 17:54:38,133 - INFO - Audio played for req_4_1764678274562
+2025-12-02 17:55:15,723 - INFO - STT (req_5_1764678315723): What is your name?
+2025-12-02 17:55:16,669 - INFO - TTS (req_5_1764678315723): Generated 34928 audio samples
+2025-12-02 17:55:18,298 - INFO - Audio played for req_5_1764678315723
+2025-12-02 17:55:23,808 - INFO - STT (req_6_1764678323808): Hey, hello.
+2025-12-02 17:55:24,528 - INFO - TTS (req_6_1764678323808): Generated 20639 audio samples
+2025-12-02 17:55:25,549 - INFO - Audio played for req_6_1764678323808
+2025-12-02 17:55:30,140 - INFO - STT (req_7_1764678330140): Yeah, hello.
+2025-12-02 17:55:31,004 - INFO - TTS (req_7_1764678330140): Generated 32811 audio samples
+2025-12-02 17:55:32,523 - INFO - Audio played for req_7_1764678330140
+2025-12-02 17:55:35,715 - INFO - STT (req_8_1764678335715): Thank you. Hello, thank you.
+2025-12-02 17:55:36,511 - INFO - TTS (req_8_1764678335715): Generated 25401 audio samples
+2025-12-02 17:55:37,736 - INFO - Audio played for req_8_1764678335715
+2025-12-02 17:55:47,475 - INFO - STT (req_9_1764678347475): Thank you for your name.
+2025-12-02 17:55:48,320 - INFO - TTS (req_9_1764678347475): Generated 44982 audio samples
+2025-12-02 17:55:50,456 - INFO - Audio played for req_9_1764678347475
+2025-12-02 17:55:56,851 - INFO - STT (req_10_1764678356851): I
+2025-12-02 17:55:56,941 - INFO - Translation (req_10_1764678356851): I
+2025-12-02 17:55:59,160 - INFO - STT (req_11_1764678359160): didn't say thank you for joining.
+2025-12-02 17:55:59,481 - INFO - TTS (req_10_1764678356851): Generated 16935 audio samples
+2025-12-02 17:56:00,305 - INFO - Audio played for req_10_1764678356851
+2025-12-02 17:56:00,914 - INFO - TTS (req_11_1764678359160): Generated 82026 audio samples
+2025-12-02 17:56:04,754 - INFO - Audio played for req_11_1764678359160
+2025-12-02 17:56:08,024 - INFO - STT (req_12_1764678368024): Why are you speaking?
+2025-12-02 17:56:08,765 - INFO - TTS (req_12_1764678368024): Generated 39161 audio samples
+2025-12-02 17:56:10,588 - INFO - Audio played for req_12_1764678368024
+2025-12-02 17:56:14,951 - INFO - STT (req_13_1764678374951): Okay, bye.
+2025-12-02 17:56:15,948 - INFO - TTS (req_13_1764678374951): Generated 35985 audio samples
+2025-12-02 17:56:17,679 - INFO - Audio played for req_13_1764678374951
+2025-12-02 17:56:22,077 - INFO - Stopping speech translation pipeline...
+2025-12-02 17:56:22,270 - INFO - Pipeline stopped
+2025-12-02 17:56:22,941 - INFO - STT (req_14_1764678382941): name is En Kapucho.
+2025-12-02 19:09:18,193 - INFO - Initializing speech translation pipeline...
+2025-12-02 19:09:33,217 - INFO - Pipeline initialized successfully
+2025-12-02 19:09:33,218 - INFO - Starting speech translation pipeline...
+2025-12-02 19:09:33,256 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-02 19:09:33,256 - INFO - Press Ctrl+C to stop.
+2025-12-02 19:09:52,381 - INFO - STT (req_1_1764682792381): Have a great one. Thank you for coming. Have a great day all of us!
+2025-12-02 19:10:04,698 - INFO - TTS (req_1_1764682792381): Generated 46041 audio samples
+2025-12-02 19:10:06,833 - INFO - Audio played for req_1_1764682792381
+2025-12-02 19:10:25,817 - INFO - STT (req_2_1764682825817): Hello, slow down, hello, hello, hello.
+2025-12-02 19:10:27,025 - INFO - TTS (req_2_1764682825817): Generated 96843 audio samples
+2025-12-02 19:10:31,470 - INFO - Audio played for req_2_1764682825817
+2025-12-02 19:10:34,758 - INFO - STT (req_3_1764682834758): Hello, how are you doing today?
+2025-12-02 19:10:35,546 - INFO - TTS (req_3_1764682834758): Generated 39690 audio samples
+2025-12-02 19:10:37,372 - INFO - Audio played for req_3_1764682834758
+2025-12-02 19:10:41,921 - INFO - Stopping speech translation pipeline...
+2025-12-02 19:10:42,068 - INFO - Pipeline stopped
+2025-12-03 15:26:37,705 - INFO - Initializing speech translation pipeline...
+2025-12-03 15:26:42,695 - INFO - Pipeline initialized successfully
+2025-12-03 15:26:42,695 - INFO - Starting speech translation pipeline...
+2025-12-03 15:26:42,722 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-03 15:26:42,722 - INFO - Press Ctrl+C to stop.
+2025-12-03 15:26:54,813 - INFO - STT (req_1_1764755814813): so
+2025-12-03 15:27:02,325 - INFO - TTS (req_1_1764755814813): Generated 22755 audio samples
+2025-12-03 15:27:03,028 - INFO - STT (req_2_1764755823028): make it even bigger. Kyaah!
+2025-12-03 15:27:03,459 - INFO - Audio played for req_1_1764755814813
+2025-12-03 15:27:04,010 - INFO - TTS (req_2_1764755823028): Generated 45512 audio samples
+2025-12-03 15:27:06,140 - INFO - Audio played for req_2_1764755823028
+2025-12-03 15:27:22,756 - INFO - STT (req_3_1764755842756): the branches of our garden is Lincoln.
+2025-12-03 15:27:24,781 - INFO - TTS (req_3_1764755842756): Generated 68267 audio samples
+2025-12-03 15:27:27,926 - INFO - Audio played for req_3_1764755842756
+2025-12-03 15:27:34,565 - INFO - TTS (req_4_1764755853565): Generated 21698 audio samples
+2025-12-03 15:27:35,586 - INFO - Audio played for req_4_1764755853565
+2025-12-03 15:27:39,475 - INFO - STT (req_5_1764755859475): Sorry, I'm late.
+2025-12-03 15:27:40,439 - INFO - TTS (req_5_1764755859475): Generated 50274 audio samples
+2025-12-03 15:27:42,768 - INFO - Audio played for req_5_1764755859475
+2025-12-03 15:27:53,044 - INFO - STT (req_6_1764755873044): highlights.
+2025-12-03 15:27:53,757 - INFO - TTS (req_6_1764755873044): Generated 38631 audio samples
+2025-12-03 15:27:55,585 - INFO - Audio played for req_6_1764755873044
+2025-12-03 15:28:11,415 - INFO - STT (req_7_1764755891414): See you later!
+2025-12-03 15:28:12,597 - INFO - TTS (req_7_1764755891414): Generated 26460 audio samples
+2025-12-03 15:28:13,830 - INFO - Audio played for req_7_1764755891414
+2025-12-03 15:28:14,477 - INFO - STT (req_8_1764755894477): Oh, what are you doing?
+2025-12-03 15:28:15,701 - INFO - TTS (req_8_1764755894477): Generated 34928 audio samples
+2025-12-03 15:28:17,329 - INFO - Audio played for req_8_1764755894477
+2025-12-03 15:28:22,515 - INFO - STT (req_9_1764755902515): Ya
+2025-12-03 15:28:23,764 - INFO - TTS (req_9_1764755902515): Generated 17463 audio samples
+2025-12-03 15:28:24,693 - INFO - Audio played for req_9_1764755902515
+2025-12-03 15:28:31,874 - INFO - STT (req_10_1764755911874): Welcome to volunteer salon.
+2025-12-03 15:28:33,240 - INFO - TTS (req_10_1764755911874): Generated 71442 audio samples
+2025-12-03 15:28:36,586 - INFO - Audio played for req_10_1764755911874
+2025-12-03 15:28:42,056 - INFO - STT (req_11_1764755922056): Rana voice sundaSeeHeeeKur Sta See xab
+2025-12-03 15:28:44,307 - INFO - TTS (req_11_1764755922056): Generated 119070 audio samples
+2025-12-03 15:28:49,789 - INFO - Audio played for req_11_1764755922056
+2025-12-03 15:28:51,986 - INFO - TTS (req_12_1764755930808): Generated 39161 audio samples
+2025-12-03 15:28:53,818 - INFO - Audio played for req_12_1764755930808
+2025-12-03 15:29:00,418 - INFO - STT (req_13_1764755940416): And that might not look like perfect donation.
+2025-12-03 15:29:02,187 - INFO - TTS (req_13_1764755940416): Generated 93669 audio samples
+2025-12-03 15:29:02,489 - INFO - STT (req_14_1764755942489): and I mean a bit in this video.
+2025-12-03 15:29:06,461 - INFO - Audio played for req_13_1764755940416
+2025-12-03 15:29:07,140 - INFO - TTS (req_14_1764755942489): Generated 69326 audio samples
+2025-12-03 15:29:09,135 - INFO - Stopping speech translation pipeline...
+2025-12-03 15:29:09,275 - INFO - Audio played for req_14_1764755942489
+2025-12-03 15:29:09,275 - INFO - Pipeline stopped
+2025-12-03 15:34:42,585 - INFO - Initializing speech translation pipeline...
+2025-12-03 15:34:46,088 - INFO - Pipeline initialized successfully
+2025-12-03 15:34:46,089 - INFO - Starting speech translation pipeline...
+2025-12-03 15:34:46,121 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-03 15:34:46,121 - INFO - Press Ctrl+C to stop.
+2025-12-03 15:35:17,457 - INFO - STT (req_1_1764756317457): Hello, what's your name?
+2025-12-03 15:35:18,880 - INFO - TTS (req_1_1764756317457): Generated 50804 audio samples
+2025-12-03 15:35:21,212 - INFO - Audio played for req_1_1764756317457
+2025-12-03 15:35:34,637 - INFO - STT (req_2_1764756334637): Okay. How old are you?
+2025-12-03 15:35:35,422 - INFO - TTS (req_2_1764756334637): Generated 35985 audio samples
+2025-12-03 15:35:37,155 - INFO - Audio played for req_2_1764756334637
+2025-12-03 15:35:43,368 - INFO - Stopping speech translation pipeline...
+2025-12-03 15:35:43,490 - INFO - Pipeline stopped
+2025-12-04 17:51:55,158 - INFO - Initializing speech translation pipeline...
+2025-12-04 17:51:58,859 - INFO - Pipeline initialized successfully
+2025-12-04 17:51:58,859 - INFO - Starting speech translation pipeline...
+2025-12-04 17:51:58,903 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-04 17:51:58,904 - INFO - Press Ctrl+C to stop.
+2025-12-04 17:52:11,702 - INFO - STT (req_1_1764850931702): Hey, hello. Hey, hello.
+2025-12-04 17:52:13,635 - INFO - TTS (req_1_1764850931702): Generated 36515 audio samples
+2025-12-04 17:52:15,369 - INFO - Audio played for req_1_1764850931702
+2025-12-04 17:52:21,656 - INFO - STT (req_2_1764850941656): This is my ghost.
+2025-12-04 17:52:22,491 - INFO - TTS (req_2_1764850941656): Generated 33869 audio samples
+2025-12-04 17:52:24,119 - INFO - Audio played for req_2_1764850941656
+2025-12-04 17:52:28,088 - INFO - STT (req_3_1764850948088): This is my last job.
+2025-12-04 17:52:28,931 - INFO - TTS (req_3_1764850948088): Generated 51333 audio samples
+2025-12-04 17:52:30,767 - INFO - STT (req_4_1764850950767): This was my first sequence.
+2025-12-04 17:52:31,373 - INFO - Audio played for req_3_1764850948088
+2025-12-04 17:52:32,000 - INFO - TTS (req_4_1764850950767): Generated 75147 audio samples
+2025-12-04 17:52:35,440 - INFO - Audio played for req_4_1764850950767
+2025-12-04 17:52:39,586 - INFO - STT (req_5_1764850959586): Why are you getting...
+2025-12-04 17:52:40,406 - INFO - TTS (req_5_1764850959586): Generated 24873 audio samples
+2025-12-04 17:52:41,634 - INFO - Audio played for req_5_1764850959586
+2025-12-04 17:52:47,394 - INFO - STT (req_6_1764850967394): Why are you working very slowly?
+2025-12-04 17:52:48,264 - INFO - TTS (req_6_1764850967394): Generated 65091 audio samples
+2025-12-04 17:52:51,301 - INFO - Audio played for req_6_1764850967394
+2025-12-04 17:52:59,070 - INFO - TTS (req_7_1764850977791): Generated 22755 audio samples
+2025-12-04 17:52:59,355 - INFO - STT (req_8_1764850979355): the latency is very slow.
+2025-12-04 17:53:00,202 - INFO - Audio played for req_7_1764850977791
+2025-12-04 17:53:00,878 - INFO - TTS (req_8_1764850979355): Generated 53979 audio samples
+2025-12-04 17:53:00,934 - INFO - STT (req_9_1764850980934): and why it is taking much more time.
+2025-12-04 17:53:03,412 - INFO - Audio played for req_8_1764850979355
+2025-12-04 17:53:04,025 - INFO - TTS (req_9_1764850980934): Generated 82026 audio samples
+2025-12-04 17:53:05,659 - INFO - STT (req_10_1764850985659): time to play back.
+2025-12-04 17:53:07,776 - INFO - Audio played for req_9_1764850980934
+2025-12-04 17:53:08,363 - INFO - TTS (req_10_1764850985659): Generated 31223 audio samples
+2025-12-04 17:53:09,787 - INFO - Audio played for req_10_1764850985659
+2025-12-04 17:53:13,293 - INFO - STT (req_11_1764850993293): Bye.
+2025-12-04 17:53:14,000 - INFO - TTS (req_11_1764850993293): Generated 18522 audio samples
+2025-12-04 17:53:14,925 - INFO - Audio played for req_11_1764850993293
+2025-12-04 17:53:15,830 - INFO - STT (req_12_1764850995830): Why are you giving me?
+2025-12-04 17:53:16,781 - INFO - TTS (req_12_1764850995830): Generated 41807 audio samples
+2025-12-04 17:53:18,714 - INFO - Audio played for req_12_1764850995830
+2025-12-04 17:53:25,117 - INFO - STT (req_13_1764851005117): What is that?
+2025-12-04 17:53:25,833 - INFO - TTS (req_13_1764851005117): Generated 24344 audio samples
+2025-12-04 17:53:27,063 - INFO - Audio played for req_13_1764851005117
+2025-12-04 17:53:33,638 - INFO - STT (req_14_1764851013638): Okay, bye bye
+2025-12-04 17:53:34,466 - INFO - TTS (req_14_1764851013638): Generated 34398 audio samples
+2025-12-04 17:53:36,092 - INFO - Audio played for req_14_1764851013638
+2025-12-04 17:53:36,115 - INFO - Stopping speech translation pipeline...
+2025-12-04 17:53:36,309 - INFO - Pipeline stopped
+2025-12-04 18:03:28,117 - INFO - Initializing speech translation pipeline...
+2025-12-04 18:03:31,746 - INFO - Pipeline initialized successfully
+2025-12-04 18:03:31,747 - INFO - Starting speech translation pipeline...
+2025-12-04 18:03:31,783 - INFO - Pipeline started. Speak in English to translate to Russian.
+2025-12-04 18:03:31,783 - INFO - Press Ctrl+C to stop.
+2025-12-04 18:03:33,665 - INFO - Stopping speech translation pipeline...
+2025-12-04 18:03:33,749 - INFO - Pipeline stopped
