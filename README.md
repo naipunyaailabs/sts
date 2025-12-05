@@ -4,13 +4,18 @@ English Speech → English Text → Russian Text → Russian Audio
 
 A complete CPU-optimized, open-source real-time speech translation system that runs entirely on your local machine without GPU requirements.
 
+**Version 2.0.0** - Now with enhanced API security, rate limiting, and improved performance!
+
 ## Features
 
 - **Real-time Processing**: Listen to English speech and output Russian audio in real-time
+- **HTTP API**: RESTful API with authentication and rate limiting
 - **CPU-Optimized**: Designed to run efficiently on CPU only
 - **Open Source**: Uses only open-source models and libraries
 - **Local Processing**: No cloud dependencies or internet required after setup
 - **Modular Design**: Each component (STT, Translation, TTS) can be used independently
+- **Production Ready**: Comprehensive logging, error handling, and monitoring
+- **Docker Support**: Easy deployment with Docker containers
 
 ## System Architecture
 
@@ -18,16 +23,16 @@ A complete CPU-optimized, open-source real-time speech translation system that r
 Microphone Input → Speech-to-Text (Whisper) → Translation (MarianMT) → Text-to-Speech (Coqui TTS) → Audio Output
 ```
 
-## Requirements
+## Installation (Local Development)
+
+### Prerequisites
 
 - Python 3.8 or higher
 - Windows/Linux/macOS
-- Microphone for input
-- Speakers for output
+- Microphone for input (standalone mode)
+- Speakers for output (standalone mode)
 - At least 4GB RAM (8GB recommended)
 - 2GB free disk space for models
-
-## Installation
 
 ### 1. Clone/Download the Project
 
@@ -55,13 +60,27 @@ source venv/bin/activate
 ### 3. Install Dependencies
 
 ```bash
-# Install all required packages
 pip install -r requirements.txt
 ```
 
-### 4. Install Additional System Dependencies
+### 4. Create Environment Configuration (Optional)
 
-**Windows:**
+For API mode, create a `.env` file:
+
+```bash
+cp .env.example .env
+# Edit .env and set your configuration
+```
+
+**Key environment variables**:
+- `STS_API_KEY`: API key for authentication (optional but recommended)
+- `STT_MODEL`: Whisper model size (tiny/base/small/medium/large)
+- `MAX_FILE_SIZE_MB`: Maximum upload file size
+- `EAGER_LOAD`: Load models at startup (true/false)
+
+### 5. Download Models (First Run Only)
+
+### 6. Install Additional System Dependencies (Optional)
 ```bash
 # Install Microsoft Visual C++ Redistributable
 # Download from: https://aka.ms/vs/17/release/vc_redist.x64.exe
@@ -92,7 +111,32 @@ Total download: ~1GB
 
 ## Usage
 
-### Quick Start
+### Mode 1: HTTP API Server (Recommended)
+
+Start the FastAPI server:
+
+```bash
+cd src
+python api_app.py
+```
+
+Or with uvicorn:
+
+```bash
+cd src
+uvicorn api_app:app --host 0.0.0.0 --port 8000
+```
+
+The API will be available at `http://localhost:8000`
+
+**API Endpoints**:
+- `GET /health` - Health check
+- `GET /ready` - Readiness check (models loaded)
+- `POST /translate-audio` - Translate audio file
+
+See [API_DOCUMENTATION.md](API_DOCUMENTATION.md) for complete API reference.
+
+### Mode 2: Standalone Real-time Pipeline
 
 ```bash
 cd src
@@ -104,7 +148,12 @@ The system will:
 2. Start listening to your microphone
 3. Translate English speech to Russian audio in real-time
 
-### Advanced Usage
+### Mode 3: Individual Components
+```
+
+**For detailed API documentation**, see [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
+---
 
 #### Using Individual Components
 
@@ -212,7 +261,48 @@ pipeline = SpeechTranslationPipeline(stt_model="small")
 ###. Use interviewer; CPU usage")]
 ```
 ```
+## API Security
+
+### Enabling Authentication
+
+1. Set the `STS_API_KEY` environment variable:
+
+```bash
+export STS_API_KEY="your-very-secret-key-here"
+```
+
+Or in Docker:
+
+```bash
+docker run -p 8000:8000 -e STS_API_KEY="your-secret-key" sts-api:latest
+```
+
+2. Include the API key in requests:
+
+```bash
+curl -H "X-API-Key: your-very-secret-key-here" \
+  http://localhost:8000/translate-audio ...
+```
+
+### Rate Limiting
+
+Default: **10 requests per minute** per IP address
+
+This prevents abuse and ensures fair usage. Adjust in `api_app.py` if needed.
+
+---
+
 ## Configuration
+
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `STS_API_KEY` | None | API key for authentication |
+| `STT_MODEL` | `base` | Whisper model (tiny/base/small/medium/large) |
+| `MAX_FILE_SIZE_MB` | `10` | Max upload size in MB |
+| `EAGER_LOAD` | `true` | Load models at startup |
+| `STS_DISABLE_PYGAME` | `0` | Disable pygame (set to 1 in API mode) |
 
 ### Audio Settings
 

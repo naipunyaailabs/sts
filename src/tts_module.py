@@ -23,13 +23,15 @@ if _PYGAME_ENABLED:
 
 """Configure a local ffmpeg binary if present.
 
-We expect ffmpeg.exe to be placed at: src/ffmpeg/bin/ffmpeg.exe
+We expect ffmpeg to be placed at: src/ffmpeg/bin/ffmpeg[.exe]
 This avoids needing a system-wide FFmpeg install or PATH changes.
+Cross-platform: automatically detects Windows (.exe) or Unix systems.
 """
 
 # Compute expected local ffmpeg path relative to this file
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-_LOCAL_FFMPEG = os.path.join(_BASE_DIR, "ffmpeg", "bin", "ffmpeg.exe")
+_FFMPEG_NAME = "ffmpeg.exe" if os.name == "nt" else "ffmpeg"
+_LOCAL_FFMPEG = os.path.join(_BASE_DIR, "ffmpeg", "bin", _FFMPEG_NAME)
 
 if os.path.isfile(_LOCAL_FFMPEG):
     os.environ["FFMPEG_BINARY"] = _LOCAL_FFMPEG
