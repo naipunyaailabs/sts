@@ -21,20 +21,27 @@ if _PYGAME_ENABLED:
     import pygame
 
 
-"""Configure a local ffmpeg binary if present.
+"""Configure ffmpeg binary path.
 
-We expect ffmpeg to be placed at: src/ffmpeg/bin/ffmpeg[.exe]
-This avoids needing a system-wide FFmpeg install or PATH changes.
+Prefer local ffmpeg if present, otherwise use system ffmpeg.
 Cross-platform: automatically detects Windows (.exe) or Unix systems.
 """
+
+import shutil
 
 # Compute expected local ffmpeg path relative to this file
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 _FFMPEG_NAME = "ffmpeg.exe" if os.name == "nt" else "ffmpeg"
 _LOCAL_FFMPEG = os.path.join(_BASE_DIR, "ffmpeg", "bin", _FFMPEG_NAME)
 
+# Use local ffmpeg if exists, otherwise try to find system ffmpeg
 if os.path.isfile(_LOCAL_FFMPEG):
     os.environ["FFMPEG_BINARY"] = _LOCAL_FFMPEG
+else:
+    # Try to find ffmpeg in system PATH
+    system_ffmpeg = shutil.which("ffmpeg")
+    if system_ffmpeg:
+        os.environ["FFMPEG_BINARY"] = system_ffmpeg
 
 
 class RussianTextToSpeech:
@@ -99,11 +106,12 @@ class RussianTextToSpeech:
             tts = gTTS(text=text, lang="ru")
             tts.save(temp_mp3)
 
-            # Convert MP3 to WAV using local ffmpeg via subprocess
-            ffmpeg_bin = os.environ.get("FFMPEG_BINARY", _LOCAL_FFMPEG)
-            if not (ffmpeg_bin and os.path.isfile(ffmpeg_bin)):
-                raise FileNotFoundError(f"ffmpeg binary not found at: {ffmpeg_bin}")
-
+            # Convert MP3 to WAV using ffmpeg
+            ffmpeg_bin = os.environ.get("FFMPEG_BINARY")
+            if not ffmpeg_bin:
+                # Last resort: try 'ffmpeg' command directly
+                ffmpeg_bin = "ffmpeg"
+            
             cmd = [
                 ffmpeg_bin,
                 "-y",              # overwrite output
