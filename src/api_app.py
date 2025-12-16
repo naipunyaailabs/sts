@@ -30,12 +30,7 @@ from typing import Optional
 
 import numpy as np
 import soundfile as sf
-from fastapi import FastAPI, UploadFile, File, HTTPException, Header, Request
-from fastapi.responses import Response
-from fastapi.middleware.cors import CORSMiddleware
-from slowapi import Limiter, _rate_limit_exceeded_handler
-from slowapi.util import get_remote_address
-from slowapi.errors import RateLimitExceeded
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 
 from stt_module import SpeechToText
 from translation_module import EnglishToRussianTranslator
@@ -52,20 +47,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Rate limiting
-limiter = Limiter(key_func=get_remote_address)
 app = FastAPI(title="Speech Translation Service", version="2.0.0")
-app.state.limiter = limiter
-app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
-
-# CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 # API Key from environment variable
 API_KEY = os.getenv("STS_API_KEY", None)
@@ -182,12 +164,12 @@ def get_pipeline():
     return pipeline
 
 
-def verify_api_key(x_api_key: Optional[str] = Header(None)):
-    """Verify API key if authentication is enabled."""
+def verify_api_key(api_key: Optional[str]):
+    """Verify API key for WebSocket connections if authentication is enabled."""
     if API_KEY is None:
         return  # Authentication disabled
     
-    if x_api_key is None:
+    if api_key is None:
         logger.warning("Request missing API key")
         raise HTTPException(
             status_code=401,
@@ -195,8 +177,8 @@ def verify_api_key(x_api_key: Optional[str] = Header(None)):
             headers={"WWW-Authenticate": "ApiKey"}
         )
     
-    if x_api_key != API_KEY:
-        logger.warning(f"Invalid API key attempt: {x_api_key[:8]}...")
+    if api_key != API_KEY:
+        logger.warning(f"Invalid API key attempt: {api_key[:8]}...")
         raise HTTPException(
             status_code=403,
             detail="Invalid API key"
@@ -215,111 +197,92 @@ async def startup_event():
         logger.info("Lazy loading enabled - models will load on first request")
 
 
-@app.get("/health")
-def health_check() -> dict:
-    """Health endpoint for readiness/liveness probes."""
-    return {
-        "status": "ok",
-        "timestamp": datetime.utcnow().isoformat(),
-        "models_loaded": pipeline is not None
-    }
+@app.websocket("/ws/translate-audio")
+async def websocket_translate_audio(websocket: WebSocket):
+    """WebSocket endpoint for live audio translation.
 
-
-@app.get("/ready")
-def readiness_check() -> dict:
-    """Readiness check - confirms models are loaded."""
-    if pipeline is None:
-        raise HTTPException(status_code=503, detail="Models not loaded yet")
-    return {
-        "status": "ready",
-        "timestamp": datetime.utcnow().isoformat()
-    }
-
-
-@app.post("/translate-audio", response_class=Response, dependencies=[])
-@limiter.limit("10/minute")
-async def translate_audio(
-    request: Request,
-    file: UploadFile = File(...),
-    x_api_key: Optional[str] = Header(None)
-) -> Response:
-    """Translate English speech to Russian speech.
-
-    Request
-    -------
-    - ``multipart/form-data`` with a single file field named ``file``
-      containing a 16 kHz mono WAV (PCM) snippet in English.
-    - Optional: ``X-API-Key`` header if authentication is enabled.
-
-    Response
-    --------
-    - ``audio/wav`` bytes (22050 Hz mono) containing the corresponding Russian speech.
-    
-    Rate Limit
-    ----------
-    - 10 requests per minute per IP address
+    Expected client behavior
+    ------------------------
+    - Connect to: ``/ws/translate-audio?api_key=YOUR_KEY`` when API key auth is enabled.
+    - Send binary messages containing 16 kHz mono WAV (PCM) snippets of English speech.
+    - For each binary message received, the server responds with:
+        1) a binary message containing the translated Russian audio (22050 Hz mono WAV), and
+        2) a JSON text message with ``english_text`` and ``russian_text``.
     """
-    
-    # Verify API key if authentication is enabled
-    verify_api_key(x_api_key)
-    
-    start_time = datetime.utcnow()
-    logger.info(f"Translation request received from {request.client.host}")
-    
+
+    # API key (if enabled) is passed as a query parameter for WebSocket connections
+    api_key = websocket.query_params.get("api_key")
     try:
-        # Validate file
-        if not file.filename:
-            raise HTTPException(status_code=400, detail="No file provided")
-        
-        if not file.filename.lower().endswith('.wav'):
-            raise HTTPException(
-                status_code=400,
-                detail="Only WAV files are supported"
-            )
-        
-        # Read file contents
-        contents = await file.read()
-        
-        # Check file size
-        if len(contents) > MAX_FILE_SIZE_BYTES:
-            raise HTTPException(
-                status_code=413,
-                detail=f"File too large. Maximum size: {MAX_FILE_SIZE_MB}MB"
-            )
-        
-        if len(contents) == 0:
-            raise HTTPException(status_code=400, detail="Empty file")
-        
-        logger.info(f"Processing audio file: {file.filename} ({len(contents)} bytes)")
-        
-        # Process translation
-        result = get_pipeline().translate_audio_chunk(contents)
-        
-        # Log processing time
-        duration = (datetime.utcnow() - start_time).total_seconds()
-        logger.info(f"Translation completed in {duration:.2f}s - EN: '{result['english_text']}' -> RU: '{result['russian_text']}'")
-        
-        return Response(
-            content=result["audio"],
-            media_type="audio/wav",
-            headers={
-                "X-English-Text": result["english_text"],
-                "X-Russian-Text": result["russian_text"],
-                "X-Processing-Time": f"{duration:.2f}"
-            }
-        )
-        
-    except ValueError as exc:
-        logger.error(f"Validation error: {exc}")
-        raise HTTPException(status_code=400, detail=str(exc)) from exc
+        verify_api_key(api_key)
     except HTTPException:
-        raise
-    except Exception as exc:
-        logger.exception(f"Internal error during translation: {exc}")
-        raise HTTPException(
-            status_code=500,
-            detail="Internal translation error. Check server logs for details."
-        ) from exc
+        # Close connection with policy violation code if auth fails
+        await websocket.close(code=1008)
+        return
+
+    await websocket.accept()
+    logger.info(f"WebSocket client connected from {websocket.client.host if websocket.client else 'unknown'}")
+
+    try:
+        while True:
+            message = await websocket.receive()
+
+            if message.get("type") == "websocket.disconnect":
+                break
+
+            # Expect binary frames containing WAV bytes
+            audio_bytes = message.get("bytes")
+            if not audio_bytes:
+                # Ignore non-binary or empty messages
+                continue
+
+            start_time = datetime.utcnow()
+
+            try:
+                result = get_pipeline().translate_audio_chunk(audio_bytes)
+                duration = (datetime.utcnow() - start_time).total_seconds()
+
+                # First, send the synthesized Russian audio as binary
+                await websocket.send_bytes(result["audio"])
+
+                # Then, send metadata (texts and processing time) as JSON
+                await websocket.send_json(
+                    {
+                        "english_text": result["english_text"],
+                        "russian_text": result["russian_text"],
+                        "processing_time": duration,
+                    }
+                )
+
+                logger.info(
+                    "WS translation completed in %.2fs - EN: '%s' -> RU: '%s'",
+                    duration,
+                    result["english_text"],
+                    result["russian_text"],
+                )
+
+            except ValueError as exc:
+                logger.error(f"WebSocket validation error: {exc}")
+                await websocket.send_json({"error": str(exc)})
+            except Exception as exc:  # pragma: no cover - unexpected runtime issues
+                logger.exception(f"WebSocket internal error during translation: {exc}")
+                await websocket.send_json(
+                    {
+                        "error": "Internal translation error. Check server logs for details.",
+                    }
+                )
+
+    except WebSocketDisconnect:
+        logger.info("WebSocket client disconnected")
+    except Exception as exc:  # pragma: no cover - unexpected runtime issues
+        logger.exception(f"Unexpected WebSocket error: {exc}")
+    finally:
+        try:
+            await websocket.close()
+        except Exception:
+            # Ignore errors while closing
+            pass
+
+
 
 
 if __name__ == "__main__":  # pragma: no cover
